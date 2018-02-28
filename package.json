@@ -1,7 +1,7 @@
 {
-  "name": "es6-mocha-boilerplate",
+  "name": "messenger-chat-extension-playground",
   "version": "1.0.0",
-  "description": "Get started quickly with ES6, Mocha, Yarn and Node.js",
+  "description": "Minimal Messenger Bot to test a Chat Extension",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -13,18 +13,20 @@
     "npm": ">=5.3"
   },
   "keywords": [
+    "messenger",
+    "chat extension",
+    "chatbot",
+    "playground",
     "ES6",
-    "mocha",
-    "boilerplate",
-    "nodejs",
-    "yarn",
-    "dotenv",
-    "nodemon"
+    "nodejs"
   ],
   "author": "davb",
   "license": "ISC",
   "dependencies": {
+    "botly": "github:davb/botly#timeout",
     "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "fb": "^2.0.0",
     "mocha": "^3.3.0"
   },
   "devDependencies": {
